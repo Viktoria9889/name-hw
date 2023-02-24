@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  background-color: #0d0d11;
+  margin: 0;
+  padding: 0;
+}
+
+.div_name {
+  margin-top: 20px;
+  gap: 15px;
+  display: flex;
+}
+
+.div_input {
+  margin-left: 20px;
+}
+.div_input input {
+  margin-top: 1px;
+  border-radius: 5px;
+  width: 200px;
+  height: 41px;
+  padding-left: 10px;
+  font-size: 30px;
+  background-color: #877070;
+  color: #f3f3f3;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.select_gender {
+  margin-top: 1px;
+  border-radius: 5px;
+  width: 200px;
+  height: 41px;
+  padding-left: 10px;
+  font-size: 30px;
+  background-color: #877070;
+  color: #f3f3f3;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.select_gender .option {
+  background-color: #877070;
+}
+
+.conteiner {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.btn_push {
+  padding: 10px 40px;
+  border-radius: 6px;
+  background-color: #504040;
+}
+.btn_push span {
+  color: #f3f3f3;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.btn_push:hover {
+  background-color: #877070;
+}
+
+.btn_clear {
+  padding: 10px 40px;
+  border-radius: 6px;
+  background-color: #504040;
+}
+.btn_clear span {
+  color: #f3f3f3;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.btn_clear:hover {
+  background-color: #877070;
+}
+
+.li {
+  color: #d7c4c4;
+  font-size: 50px;
+  width: 300px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  margin: 10px 0px 0px 73px;
+}/*# sourceMappingURL=main.css.map */
